@@ -155,7 +155,7 @@ then
 	then
 	    plugin_addnote ""
 	    plugin_addnote "    NOTE: You have configured SSH"
-	    plugin_addnote "          Please review https://github.com/gitbls/sdm/blob/master/Docs/Disk-Encryption.md for important information"
+	    plugin_addnote "          Please review https://github.com/jollycar/sdm/blob/master/Docs/Disk-Encryption.md for important information"
 	fi
 	plugin_addnote ""
     else

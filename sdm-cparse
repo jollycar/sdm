@@ -978,7 +978,7 @@ function chroot_cleanup() {
 	grep -q 'sdm-generated' $SDMPT/etc/resolv.conf && rm -f $SDMPT/etc/resolv.conf
 	umount $SDMPT/{dev/pts,dev,proc,sys}
     else
-	logtoboth "% SDMPT null in handling chroot cleanup. Please log an issue at https://github.com/gitbls/sdm; Continuing..."
+	logtoboth "% SDMPT null in handling chroot cleanup. Please log an issue at https://github.com/jollycar/sdm; Continuing..."
     fi
 }
 
@@ -1059,7 +1059,7 @@ function sdm_spawn() {
 		logtoboth "   Details: https://github.com/raspberrypi/bookworm-feedback/issues/120"
 	    else
 		logtoboth "?! Unrecognized error from systemd-nspawn"
-		logtoboth "   Please open an issue at https://github.com/gitbls/sdm"
+		logtoboth "   Please open an issue at https://github.com/jollycar/sdm"
 	    fi
 	fi
 	return $sts

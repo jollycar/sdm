@@ -314,7 +314,7 @@ Clones the specified repository to the specified directory.
 
 #### Examples
 
-* `--plugin git-clone:"repo=https://github.com/gitbls/sdm|gitdir=/home/bls/work/sdm|user=bls|logspace` &mdash; Clone the sdm repo into /home/bls/work/sdm as user bls. Disk space will be logged before and after the clone.
+* `--plugin git-clone:"repo=https://github.com/jollycar/sdm|gitdir=/home/bls/work/sdm|user=bls|logspace` &mdash; Clone the sdm repo into /home/bls/work/sdm as user bls. Disk space will be logged before and after the clone.
 
 ### graphics
 

@@ -6,7 +6,7 @@ It's assumed that there is a freshly downloaded copy of a RasPiOS IMG file (e.g.
 
 ### Install sdm and required system software
 
-`curl -L https://raw.githubusercontent.com/gitbls/sdm/master/EZsdmInstaller | bash`
+`curl -L https://raw.githubusercontent.com/jollycar/sdm/master/EZsdmInstaller | bash`
 
 This command will:
 * Download sdm from GitHub to /usr/local/sdm

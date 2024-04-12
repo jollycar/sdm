@@ -65,7 +65,7 @@ If your system was not built with sdm (why not?), you can still use a single sdm
 
 When your system is running, simply download and run sdm-cryptconfig:
 ```
-sudo curl --fail --silent --show-error -L https://github.com/gitbls/sdm/raw/master/sdm-cryptconfig -o /usr/local/bin/sdm-cryptconfig
+sudo curl --fail --silent --show-error -L https://github.com/jollycar/sdm/raw/master/sdm-cryptconfig -o /usr/local/bin/sdm-cryptconfig
 sudo chmod 755 /usr/local/bin/sdm-cryptconfig
 sudo sdm-cryptconfig [optional switches; see below]
 ```
