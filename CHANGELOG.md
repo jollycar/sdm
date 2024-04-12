@@ -403,7 +403,7 @@
 
 ## V7.0
 
-* Plugins are here! Like Custom Phase Scripts, Plugins enable sdm functionality to be extended in a modular way. Plugins can be used during `--customize` and `--burn`. See https://github.com/gitbls/sdm/wiki/sdm-Plugins for details.
+* Plugins are here! Like Custom Phase Scripts, Plugins enable sdm functionality to be extended in a modular way. Plugins can be used during `--customize` and `--burn`. See https://github.com/jollycar/sdm/wiki/sdm-Plugins for details.
 * Initial plugin set: apt-cacher-ng, apt-file, postfix, rxapp, samba, vnc. See above link for complete details.
 * As a result of the new plugins, the following sdm switches have been removed: `--vnc` and `--poptions samba`, which are now available as plugins.
 * If sdm installed into /usr/local/sdm, add a link to it in /usr/local/bin, eliminating the need for an alias. Thanks @arpj-rebola for the `realpath` hint
@@ -418,7 +418,7 @@
 
 ## V6.12
 
-* sdm works in Windows WSL! Well, for everything but burning to SSDs/SD Cards. See https://github.com/gitbls/sdm/wiki/Using-sdm-on-Windows-WSL for details.
+* sdm works in Windows WSL! Well, for everything but burning to SSDs/SD Cards. See https://github.com/jollycar/sdm/wiki/Using-sdm-on-Windows-WSL for details.
 * Add --nowait-timesync which skips waiting for date/time synchronization in sdm-firstboot. Useful if no network
 * Remove /etc/ssh/sshd_config.d/rename_user.conf at the end of first boot; part of /usr/bin/cancel-rename
 
@@ -453,7 +453,7 @@
 
 ## V6.6
 
-* Vast improvements to sdm-gburn. See https://github.com/gitbls/sdm/wiki/Batch-burn-SSD-SDs-with-sdm-gburn
+* Vast improvements to sdm-gburn. See https://github.com/jollycar/sdm/wiki/Batch-burn-SSD-SDs-with-sdm-gburn
 * Reimagined and reimplemented autologin and firstboot autoreboot handling; it's MUCH better
 * Add `--nouser` to disable user creation enforcement; Useful with sdm-gburn to burn a large number of SSD/SDs at one sitting
 * Add `--autologin` to explicitly enable autologin, on Lite and with Desktop
@@ -484,7 +484,7 @@
 
 ## V6.0
 
-* Test and verify that sdm works correctly with RasPiOS 2022-04-07. See https://github.com/gitbls/sdm/wiki/Hint:-Using-sdm-on-2022-04-04-and-later-RasPiOS-images for details.
+* Test and verify that sdm works correctly with RasPiOS 2022-04-07. See https://github.com/jollycar/sdm/wiki/Hint:-Using-sdm-on-2022-04-04-and-later-RasPiOS-images for details.
   * If using sdm on pre-2022-04-04 images, the user 'pi' password is changed by default (password of your choice, of course!)
   * If using sdm on 2022-04-04 or later images, the user 'pi' password is only changed if you specify `--user pi` on the command line
 * `--user` is now **required** on customizations. For pre-2022-04-04 you can specify `--user pi` if you don't want a new user created. For 2022-04-04 or later images, use this to create your favorite username, or use `--user pi` if desired
@@ -501,7 +501,7 @@
 
 ## V5.4
 
-* WARNING: In order to bring consistency between the burn phase and the customization phase, switch `--b1script` has been renamed to `--b0script` and `--b2script` has been renamed to `--b1script`. Apologies for any inconvenience this causes. See https://github.com/gitbls/sdm/wiki/Burn-Scripts for details.
+* WARNING: In order to bring consistency between the burn phase and the customization phase, switch `--b1script` has been renamed to `--b0script` and `--b2script` has been renamed to `--b1script`. Apologies for any inconvenience this causes. See https://github.com/jollycar/sdm/wiki/Burn-Scripts for details.
 
 ## V5.3a
 

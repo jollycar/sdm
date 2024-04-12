@@ -35,7 +35,7 @@ Here's how to quickly and easily to create and customize an IMG file and burn it
 
 ## Install sdm
 ```sh
-curl -L https://raw.githubusercontent.com/gitbls/sdm/master/EZsdmInstaller | bash
+curl -L https://raw.githubusercontent.com/jollycar/sdm/master/EZsdmInstaller | bash
 ```
 
 * sdm will download the files to /usr/local/sdm by default, and make a link for sdm in /usr/local/bin for ease of use.

@@ -145,7 +145,7 @@ sdmcryptfs will:
     then
 	echo $"
 NOTE: You have configured SSH
-      Please review https://github.com/gitbls/sdm/blob/master/Docs/Disk-Encryption.md
+      Please review https://github.com/jollycar/sdm/blob/master/Docs/Disk-Encryption.md
 "
     fi
 }
@@ -420,7 +420,7 @@ then
 	    cp $src/sdmcryptfs /usr/local/bin
 	else
 	    echo "> Copy sdmcryptfs from GitHub"
-	    curl --fail --silent --show-error -L https://github.com/gitbls/sdm/raw/master/sdmcryptfs -o /usr/local/bin/sdmcryptfs
+	    curl --fail --silent --show-error -L https://github.com/jollycar/sdm/raw/master/sdmcryptfs -o /usr/local/bin/sdmcryptfs
 	    chmod 755 /usr/local/bin/sdmcryptfs
 	fi
     fi

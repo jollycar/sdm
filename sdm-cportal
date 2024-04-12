@@ -10,7 +10,7 @@
 # the system first boots.
 #
 # sdm-cportal can be used standalone, independently of sdm as well. sdm-cportal is documented
-# as part of sdm: https://github.com/gitbls/sdm/blob/master/Docs/Captive-Portal.md
+# as part of sdm: https://github.com/jollycar/sdm/blob/master/Docs/Captive-Portal.md
 #
 #
 # TODO
