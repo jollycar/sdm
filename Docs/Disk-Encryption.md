@@ -231,7 +231,7 @@ pw/ssdy/work$ sudo cryptsetup benchmark -c xchacha20,aes-adiantum-plain64
 #            Algorithm |       Key |      Encryption |      Decryption
 xchacha20,aes-adiantum        256b       394.4 MiB/s       421.6 MiB/s
 
-pw/ssdy/work$ sudo cryptsetup benchmark -c aes
+pw/ssdy/work$ sudo cryptsetup benchmark -c aes-xts
 # Tests are approximate using memory only (no storage IO).
 # Algorithm |       Key |      Encryption |      Decryption
     aes-xts        256b      1673.6 MiB/s      1780.2 MiB/s
@@ -244,7 +244,7 @@ p84~$ sudo cryptsetup benchmark -c xchacha20,aes-adiantum-plain64
 #            Algorithm |       Key |      Encryption |      Decryption
 xchacha20,aes-adiantum        256b       170.9 MiB/s       180.0 MiB/s
 
-p84~$ sudo cryptsetup benchmark -c aes
+p84~$ sudo cryptsetup benchmark -c aes-xts
 # Tests are approximate using memory only (no storage IO).
 # Algorithm |       Key |      Encryption |      Decryption
     aes-xts        256b        76.6 MiB/s        80.7 MiB/s
