@@ -234,7 +234,7 @@ xchacha20,aes-adiantum        256b       394.4 MiB/s       421.6 MiB/s
 pw/ssdy/work$ sudo cryptsetup benchmark -c aes
 # Tests are approximate using memory only (no storage IO).
 # Algorithm |       Key |      Encryption |      Decryption
-    aes-cbc        256b       921.8 MiB/s      1885.4 MiB/s
+    aes-xts        256b      1673.6 MiB/s      1780.2 MiB/s
 ```
 
 On a Pi4, the results are quite different. Using `xchacha` is more than twice as fast as `aes` on both encryption and decryption.
@@ -247,7 +247,7 @@ xchacha20,aes-adiantum        256b       170.9 MiB/s       180.0 MiB/s
 p84~$ sudo cryptsetup benchmark -c aes
 # Tests are approximate using memory only (no storage IO).
 # Algorithm |       Key |      Encryption |      Decryption
-    aes-cbc        256b        74.8 MiB/s        81.8 MiB/s
+    aes-xts        256b        76.6 MiB/s        80.7 MiB/s
 p84~#
 ```
 
