@@ -91,7 +91,7 @@ function save_rootfs() {
 function cryptpart() {
     local dev=$1
     local rootfs=$(getpartname $dev)
-    local cipher="aes-xts-plain64:sha256"
+    local cipher="aes-xts-plain64"
     pmsg "Enable luks2 '$xcrypto' encryption on '$rootfs'"
     pmsg "Enabling encryption could take up to a minute or two"
     pmsg "OK to ignore superblock signature warning"
